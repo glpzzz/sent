@@ -9,13 +9,13 @@ static char *fontfallbacks[] = {
 #define FONTSZ(x) ((int)(10.0 * powf(1.1288, (x)))) /* x in [0, NUMFONTSCALES-1] */
 
 static const char *colors[] = {
-	"#000000", /* foreground color */
-	"#FFFFFF", /* background color */
+	"#ebdbb2", /* foreground color */
+	"#282828", /* background color */
 };
 
 static const char *inverted_colors[] = {
-	"#FFFFFF", /* foreground color */
-	"#000000", /* background color */
+	"#3c3836", /* foreground color */
+	"#fbf1c7", /* background color */
 };
 
 static const float linespacing = 1.4;
